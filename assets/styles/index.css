@@ -63,7 +63,8 @@ h4 {
   flex-direction: column;
   width: 70%;
   border-radius: 50%;
-  background-color: hsla(256, 72%, 46%, 1);
+  background-image: linear-gradient(hsl(234, 85%, 45%), hsla(256, 72%, 46%, 1));
+  box-shadow: 0 0 9rem hsl(241, 100%, 89%);
 }
 .result-right {
   width: fit-content;
@@ -75,6 +76,8 @@ h4 {
   text-align: center;
   font-size: 16px;
   font-weight: bold;
+  display: flex;
+  margin: 0;
 }
 .subtext {
   display: flex;
