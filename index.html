@@ -1,12 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Result summary</title>
-</head>
-<body>
-    
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/styles/index.css" />
+  </head>
+
+  <body>
+    <main class="container">
+      <div class="left card">
+        <h3>Your Result</h3>
+        <div class="score">
+          <h1>76</h1>
+          <h4>of 100</h4>
+        </div>
+        <div class="subtext">
+          <h2>Great</h2>
+          <h4>
+            You scored higher than 65% of the people who have taken these tests.
+          </h4>
+        </div>
+      </div>
+      <div class="right">
+        <h3>Summary</h3>
+        <div class="resultContainer">
+          <div class="results pink">
+            <div class="rl">
+              <img src="./assets/images/icon-reaction.svg" alt="reaction" />
+              Reaction
+            </div>
+            <div class="result-right"><span>80</span>/100</div>
+          </div>
+          <div class="results yellow">
+            <div class="rl">
+              <img src="./assets/images/icon-memory.svg" alt="memory" /> Memory
+            </div>
+            <div class="result-right"><span>92</span>/100</div>
+          </div>
+          <div class="results green">
+            <div class="rl">
+              <img src="./assets/images/icon-verbal.svg" alt="verbal" /> Verbal
+            </div>
+            <div class="result-right"><span>61</span>/100</div>
+          </div>
+          <div class="results blue">
+            <div class="rl">
+              <img src="./assets/images/icon-visual.svg" alt="visual" /> Visual
+            </div>
+            <div class="result-right"><span>72</span>/100</div>
+          </div>
+        </div>
+        <button>Continue</button>
+      </div>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. <br class="divider" />
+      Coded by
+      <a href="https://twitter.com/JCRichLee">Richard Adeyele 🎉🎉🎉🚀</a>
+    </footer>
+  </body>
 </html>
